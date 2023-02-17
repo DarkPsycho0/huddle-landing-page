@@ -13,16 +13,16 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 40px 80px;
+    padding: 30px 60px;
     height: 100vh;
 }
 .header {
-    margin: 30px 0;
+    margin: 25px 0;
 }
 .main {
     display: flex;
     align-items: center;
-    margin: 50px 0;
+    margin: 20px 0;
     height: 70vh;
 }
 .main img {
@@ -40,7 +40,7 @@ body {
 }
 .main div p {
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .main div .btn {
     color: hsl(257, 40%, 49%);
@@ -54,4 +54,28 @@ body {
 .main div .btn:hover {
     background-color: hsl(300, 69%, 71%);
     color: #fff;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    color: #fff;
+}
+.footer .social {
+    display: flex;
+}
+.footer .social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+.footer .social a:hover {
+    color: hsl(300, 69%, 71%);
+    border: 2px solid hsl(300, 69%, 71%);
 }
