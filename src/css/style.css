@@ -5,20 +5,53 @@ html {
     font-size: 25px;
     font-weight: 400;
 }
-.container {
+body {
     background-color: hsl(257, 40%, 49%);
     background-image: url(../images/bg-desktop.svg);
     background-size: cover;
-    padding: 20px 40px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 80px;
     height: 100vh;
+}
+.header {
+    margin: 30px 0;
 }
 .main {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 40px 0;
+    margin: 50px 0;
     height: 70vh;
 }
 .main img {
     margin-right: 40px;
+}
+.main div {
+    padding: 30px 0;
+    color: #fff;
+}
+.main div h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.main div p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.main div .btn {
+    color: hsl(257, 40%, 49%);
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    width: 200px;
+    text-align: center;
+}
+.main div .btn:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
 }
