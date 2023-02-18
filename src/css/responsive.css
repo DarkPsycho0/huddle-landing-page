@@ -26,6 +26,7 @@
     .main div p {
         font-size: 16px;
     }
+}
 @media(max-width:425px) {
     body {
         background-image: url(../images/bg-mobile.svg);
