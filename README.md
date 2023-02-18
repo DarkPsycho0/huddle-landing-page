@@ -11,13 +11,20 @@ Users should be able to:
 - View the optimal layout for the page depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-#### Desktop Screenshot
+### Screenshot 📷
+#### Desktop Screenshot 🖥️
 ![](./src/images/desktop-screenshot.png)
 
-#### Mobile Screenshot
+#### Mobile Screenshot 📱
 ![](./src/images/mobile-screenshot.png)
 
 ### link
 
 - Live Site URL: (https://lkiryu.github.io/huddle-landing-page)
+
+### Built with
+- HTML5
+- CSS
+---
+### Author
+ Made by Matheus Antonio 👨‍💻
