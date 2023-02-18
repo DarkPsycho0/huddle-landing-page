@@ -18,13 +18,13 @@ Users should be able to:
 #### Mobile Screenshot 📱
 ![](./src/images/mobile-screenshot.png)
 
-### link
+### link 🔗
 
 - Live Site URL: (https://lkiryu.github.io/huddle-landing-page)
 
-### Built with
+### Built with 🛠️
 - HTML5
 - CSS
 ---
-### Author
- Made by Matheus Antonio 👨‍💻
+### Author 👨‍💻
+ Made by Matheus Antonio
