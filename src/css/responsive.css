@@ -1,13 +1,14 @@
 @media(max-width: 1440px){
     .container {
         max-width: 1024px;
-        padding: 10px 20px;
+        padding: 0 20px;
     }
     .header {
         margin: auto;
     }
     .main {
         margin: auto;
+        height: 600px;
     }
     .main img {
        width: 500px;
@@ -16,15 +17,24 @@
 @media(max-width:768px){
     .container {
         max-width: 700px;
+        text-align: center;
+    }
+    .main {
+        flex-direction: column;
+        text-align: center;
     }
     .main img {
         width: 350px;
+        margin: 20px 0;
     }
     .main div h2 {
         font-size: 24px;
     }
     .main div p {
-        font-size: 16px;
+        font-size: 20px;
+    }
+    .footer {
+        justify-content: center;
     }
 }
 @media(max-width:425px) {
@@ -35,29 +45,30 @@
         margin: 0px 20px;
     }
     .header img {
-        width: 100px;
+        width: 150px;
         margin-bottom: 15px;
     }
     .main {
         display: flex;
         flex-direction: column;
         text-align: center;
+        height: 500px;
     }
     .main img {
         width: 250px;
-        margin: 20px 0 ;
+        margin: 10px 0 ;
     }
     .main div {
         margin: auto;
         padding: 0;
     }
     .main div h2 {
-        margin: 10px;
-        font-size: 18px;
+        margin: auto;
+        font-size: 20px;
     }
     .main div p {
-        margin-bottom: 30px;
-        font-size: 16px;
+        margin-bottom: 20px;
+        font-size: 18px;
     }
     .main div .btn {
         padding: 5px 60px;
@@ -69,6 +80,5 @@
     .footer .social a{
         font-size: 16px;
         padding: 8px;
-        margin-top: 50px;
     }
 }
